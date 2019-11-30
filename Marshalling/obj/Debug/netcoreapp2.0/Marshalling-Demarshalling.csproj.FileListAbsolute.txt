@@ -11,3 +11,16 @@ D:\Cloud\Dropbox\TUC\WS19-20\SSE\Tutorial\Tutorial2\Marshalling\Task3-Template\o
 D:\Cloud\Dropbox\TUC\WS19-20\SSE\Tutorial\Tutorial2\Marshalling\Task3-Template\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.AssemblyInfo.cs
 D:\Cloud\Dropbox\TUC\WS19-20\SSE\Tutorial\Tutorial2\Marshalling\Task3-Template\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.dll
 D:\Cloud\Dropbox\TUC\WS19-20\SSE\Tutorial\Tutorial2\Marshalling\Task3-Template\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.pdb
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\Marshalling-Demarshalling.deps.json
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\Marshalling-Demarshalling.runtimeconfig.json
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\Marshalling-Demarshalling.runtimeconfig.dev.json
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\Marshalling-Demarshalling.dll
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\bin\Debug\netcoreapp2.0\Marshalling-Demarshalling.pdb
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.csprojAssemblyReference.cache
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.AssemblyInfoInputs.cache
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.AssemblyInfo.cs
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.dll
+C:\Users\Soaib\Desktop\SoftwareServiceEngineering\Marshalling\obj\Debug\netcoreapp2.0\Marshalling-Demarshalling.pdb

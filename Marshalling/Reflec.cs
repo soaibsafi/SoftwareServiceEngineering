@@ -19,7 +19,7 @@ namespace Task3
             MyClass myClassObj = new MyClass();
             Type myTypeObj = myClassObj.GetType();
             MethodInfo myMethodInfo = myTypeObj.GetMethod("AddNum");
-            object[] mParam = new object[] { 5, 10 };
+            object[] mParam = new object[] { 10, 20 };
 
             Console.WriteLine("\nFirst method - " + myTypeObj.FullName + " returns " +  
                          myMethodInfo.Invoke(myClassObj, mParam) + "\n");

@@ -26,8 +26,6 @@ namespace Task3
                 return pair[1].Split(',');
 
             throw new ArgumentException("Middleware could not the object");
-
-            // TODO: Deserialize the parameter
             // --------------------- /Implement -------------------
         }
 
@@ -42,8 +40,7 @@ namespace Task3
             if (input is String)
                 return "String-Array: " + String.Join(", ", input as String[]);
 
-            throw new ArgumentException("Middleware could not Marshall the object");
-            // TODO: Serialize the parameter         
+            throw new ArgumentException("Middleware could not Marshall the object"); 
             // --------------------- /Implement ---------------------
         }
 
@@ -77,7 +74,7 @@ namespace Task3
 
         protected virtual string ProcessIncomingRequest(string line)
         {
-            line = line.Substring(0, line.IndexOf("\0")); // deleting all \0 of buffer for printing
+            line = line.Substring(0, line.IndexOf("\0")); 
             Console.WriteLine("\n\r  Middleware: Received payload '{0}'\n\r", line);
             object answer = Demarshall(line);
             return _serverCallback(answer);

@@ -5674,11 +5674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cloud\\Dropbox\\TUC\\WS19-20\\SSE\\Tutorial\\Tutorial2\\Marshalling\\Task3-Template\\Marshalling-Demarshalling.csproj",
+      "projectUniqueName": "C:\\Users\\Soaib\\Desktop\\SoftwareServiceEngineering\\Marshalling\\Marshalling-Demarshalling.csproj",
       "projectName": "Marshalling-Demarshalling",
-      "projectPath": "D:\\Cloud\\Dropbox\\TUC\\WS19-20\\SSE\\Tutorial\\Tutorial2\\Marshalling\\Task3-Template\\Marshalling-Demarshalling.csproj",
+      "projectPath": "C:\\Users\\Soaib\\Desktop\\SoftwareServiceEngineering\\Marshalling\\Marshalling-Demarshalling.csproj",
       "packagesPath": "C:\\Users\\Soaib\\.nuget\\packages\\",
-      "outputPath": "D:\\Cloud\\Dropbox\\TUC\\WS19-20\\SSE\\Tutorial\\Tutorial2\\Marshalling\\Task3-Template\\obj\\",
+      "outputPath": "C:\\Users\\Soaib\\Desktop\\SoftwareServiceEngineering\\Marshalling\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Soaib\\AppData\\Roaming\\NuGet\\NuGet.Config",
