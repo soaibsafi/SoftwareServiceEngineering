@@ -1,0 +1,6 @@
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\bin\Debug\SortServiceClient.exe.config
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\bin\Debug\SortServiceClient.exe
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\bin\Debug\SortServiceClient.pdb
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\obj\x86\Debug\SortServiceClient.csprojAssemblyReference.cache
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\obj\x86\Debug\SortServiceClient.exe
+D:\Cloud\Github\SoftwareServiceEngineering\SortService_uncompleted\02SortService_uncompleted\SortServiceClient\obj\x86\Debug\SortServiceClient.pdb

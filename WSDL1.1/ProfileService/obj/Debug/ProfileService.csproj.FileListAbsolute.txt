@@ -1,0 +1,6 @@
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\bin\ProfileService.dll.config
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\bin\ProfileService.dll
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\bin\ProfileService.pdb
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\obj\Debug\ProfileService.csprojAssemblyReference.cache
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\obj\Debug\ProfileService.dll
+D:\Cloud\Github\SoftwareServiceEngineering\WSDL1.1\ProfileService\obj\Debug\ProfileService.pdb

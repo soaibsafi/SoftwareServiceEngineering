@@ -1,0 +1,89 @@
+<definitions
+  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:s="http://www.w3.org/2001/XMLSchema"
+  xmlns:vsr="urn:vsr"
+  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"
+  targetNamespace="urn:vsr"
+  xmlns="http://schemas.xmlsoap.org/wsdl/"
+  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+>
+
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="urn:vsr">
+      <!--
+        C -> Contract
+      -->
+      <s:element name="PrintProfile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SecondName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+
+      <s:element name="PrintProfileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      
+    </s:schema>
+  </types>
+
+  <!--
+  Define messages and their parts. 
+  -->
+  <message name="PrintProfileIn">
+    <part name="parameters" element="vsr:PrintProfile" />
+  </message>
+  <message name="PrintProfileOut">
+    <part name="parameters" element="vsr:PrintProfileResponse" />
+  </message>
+
+  <!--
+  Define interface.
+  C -> Contract [Abstract Endpoint Type]
+                [Describe Message Type, Operations and parameters]
+      
+  -->
+  <portType name="IProfileManager">
+    <operation name="PrintProfile">
+      <input  message="vsr:PrintProfileIn" />         <!--Set of message flows (operations) which  are expected from a dedicated endpoint type-->
+      <output  message="vsr:PrintProfileOut" />
+    </operation>
+  </portType>
+
+  <!--
+    B -> Binding  [Concrete Endpoint Type]
+                  [Defines transport and encoding particular for a portType]
+  -->
+  <binding name="SoapOverHttpBinding" type="vsr:IProfileManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />    <!--[Defines transport for a portType] -->
+    
+    <operation name="PrintProfile">
+      <soap:operation soapAction="urn:vsr/PrintProfile" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <!--
+    A -> Address  [End point Instance]
+  -->
+  
+  <service name="ProfileService">
+    <port name="SoapOverHttpPort" binding="vsr:SoapOverHttpBinding">    <!-- [Addresss of an Endpoint according to Binding.] (Not a TCP port)-->
+      <soap12:address location="http://localhost:14129/ProfileService.asmx"/>
+    </port>
+  </service>
+  
+</definitions>
