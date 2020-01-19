@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="ProfileService 2.0.asmx.cs" Class="ProfileService" %>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<References>
+ <Song>
+  <Message>Ami taray taray rotiye debo tumi amar</Message>
+</Song>
+ <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+   <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+     <Reference URI="">
+      <Transforms>
+       <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      </Transforms>
+       <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>3e29weD1iYu4uN2NQmE/xr8uS3M=</DigestValue>
+     </Reference>
+  </SignedInfo>
+  <SignatureValue>MCN6htgQVqsTkmw4f/fyUmnjo1xY36xIoanRiwrrsabQ1s6J59IWtcPT2KispnAe
+GnS8Lrm98I3BPG6k5gpwwL/Ld4eMjqGrfRlZ9EwP6mmdnVtHwHPkFyQVikEq4fp0
+YfcFppUo3QFk5vgaArut+XOhdIf277SND7GBI5M6auw=</SignatureValue>
+  <KeyInfo>
+   <KeyValue>
+<RSAKeyValue>
+<Modulus>
+vBKEgNWKPbRcULxXcGzxefpve5Fryuc+CQwJz3YujE1z8jMKuLD2C700amz9vBqd
+aBlsrm9rjpjbtrEWEeja42T1kTaWPRRB6AV0EaUQg632GWkcVKpOeZcAqtpId3bL
+GFV74moYiu3JNCW5ZU084Ipd3zO5sWBaqVQxcyufwnM=
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+  </KeyInfo>
+ </Signature>
+</References>

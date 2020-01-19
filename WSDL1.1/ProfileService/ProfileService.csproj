@@ -64,6 +64,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ProfileService 2.0.asmx" />
     <Content Include="ProfileService.asmx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -74,6 +75,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProfileService 2.0.asmx.cs">
+      <DependentUpon>ProfileService 2.0.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ProfileService.asmx.cs">
       <DependentUpon>ProfileService.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -84,6 +89,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ProfileService2.0.wsdl" />
     <None Include="ProfileService.wsdl" />
   </ItemGroup>
   <PropertyGroup>

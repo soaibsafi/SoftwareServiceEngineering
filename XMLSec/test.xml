@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PayInfo>
+  <Name>John Smith</Name>
+  <CreditCard Limit='2,000' Currency='USD'>
+    <Number>1076 2478 0678 5589</Number>
+    <Issuer>CitiBank</Issuer>
+    <Expiration>06/10</Expiration>
+  </CreditCard>
+</PayInfo> 

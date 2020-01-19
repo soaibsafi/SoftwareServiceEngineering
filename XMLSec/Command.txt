@@ -1,0 +1,19 @@
+==========
+||Xmlsec:||
+==========
+================================================================================
+Sign> xmlsec --sign --output doc-signed.xml --privkey-pem userkey.pem doc.xml
+[Sign Part of the doc]
+Sign[With attribute ID]> xmlsec --sign --output doc-id-signed.xml --privkey-pem userkey.pem doc-id.xml
+Sign[Using XPath transformation]> xmlsec --sign --output doc-xpath-signed.xml --privkey-pem userkey.pem doc-xpath.xml
+
+Verify> xmlsec --verify doc-signed.xml
+Verify> xmlsec --verify --pubkey-pem pub-userkey.pem doc-signed.xml [If the public key is not inside the signed xml document]
+================================================================================
+[Encryption of a whole XML document]
+Encrypt> xmlsec encrypt --pubkey-pem pub-userkey.pem --session-key des-192 --xml-data doc-plain.xml --output doc-encrypted.xml session-key-template.xml
+Decrypt> xmlsec decrypt --privkey-pem userkey.pem doc-encrypted.xml
+
+[Encryption of a single value]
+Encrypt>> xmlsec encrypt --pubkey-pem pub-userkey.pem --session-key des-192 --xml-data doc-plain.xml --output doc-encrypted-xpath.xml --node-xpath /PayInfo/CreditCard/Number/text() session-key-template.xml
+Decrypt
