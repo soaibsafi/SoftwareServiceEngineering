@@ -1,0 +1,14 @@
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.csprojAssemblyReference.cache
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.AssemblyInfoInputs.cache
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.AssemblyInfo.cs
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.exe
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.deps.json
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.runtimeconfig.json
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.runtimeconfig.dev.json
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.dll
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\TDDCalculator.pdb
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.dll
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.pdb
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Cloud\Github\TDD-Calculator\Calculator\bin\Debug\netcoreapp3.1\Moq.dll
+D:\Cloud\Github\TDD-Calculator\Calculator\obj\Debug\netcoreapp3.1\TDDCalculator.csproj.CopyComplete
