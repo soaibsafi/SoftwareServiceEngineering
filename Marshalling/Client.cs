@@ -30,21 +30,12 @@ namespace Task3
 
         public async Task<string> concat(string arg1, string arg2, string arg3)
         {
-            // --------------------- Implement ---------------------
-            // TODO: Call server
-
-            // --------------------- /Implement -------------------
-
-            return "";
+            return await _middleware.CallFunction("127.0.0.1:13000", "concat", new string[] { arg1, arg2, arg3 });
         }
 
         public async Task<string> substring(string s, string startingPosition)
         {
-            // --------------------- Implement ---------------------
-            // TODO: Call server
-            // --------------------- /Implement -------------------
-
-            return "";
+            return await _middleware.CallFunction("127.0.0.1:13000", "substring", new string[] { s, startingPosition });
         }
     }
 }
